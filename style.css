@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5{
 .section{
     /* display: inline-block; */
     position: absolute;
-    top: 122px;
+    top: 128px;
     left: 12.5%;
     width: 40%;
     padding: 2%;
@@ -102,18 +102,20 @@ h1, h2, h3, h4, h5{
 
 }
 .aside{
-    width: 30%;
+    width: 25%;
 position: absolute;
 /* left: 40%; */
 /* THIS NEEDS TO BE TO THE RIGHT OF SECTION */
 right: 12.5%;
-top: 120px;
-height:120px;
-
+top: 128px;
+height:304px;
+padding:2%
+/* google says that dynamically settign hieght to the other element is a JS code thing */
 }
+
 .footer{
     position: absolute;
-    bottom: 25px;
+    bottom: 425px;
     left: 12.5%;
     width:75%;
     padding-bottom: 25px;
